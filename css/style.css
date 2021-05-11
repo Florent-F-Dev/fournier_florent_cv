@@ -1,3 +1,6 @@
+*{
+    transition: color 0.2s;
+}
 .profil-pic{
     filter: grayscale(80%);
 }
@@ -8,7 +11,6 @@
     padding-top: 8%;
     background: url('../assets/synthwave.jpg');
     background-size: cover;
-    
 }
 .skills-body img,
 .contact-body img{
@@ -16,6 +18,17 @@
 }
 .shadow-box{
     box-shadow: 5px 5px 10px black;
+}
+.contact a{
+    text-decoration: none;
+    color: blue;
+}
+.contact a:hover,
+.contact a:visited:hover{
+    color: rgb(44, 44, 255);
+}
+.contact a:visited{
+    color: rgb(93, 44, 255);
 }
 @media screen and (max-width: 768px){
     html{
