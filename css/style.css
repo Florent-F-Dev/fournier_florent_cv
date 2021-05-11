@@ -1,0 +1,30 @@
+.profil-pic{
+    filter: grayscale(80%);
+}
+.red{
+    background: red;
+}
+.identity{
+    padding-top: 8%;
+    background: url('../assets/synthwave.jpg');
+    background-size: cover;
+    
+}
+.skills-body img,
+.contact-body img{
+    width:40px;
+}
+.shadow-box{
+    box-shadow: 5px 5px 10px black;
+}
+@media screen and (max-width: 768px){
+    html{
+        font-size: 80%;
+    }
+    body{
+        margin-top: 45px;
+    }
+    .profil-pic{
+        width: 40%;
+    }
+}
